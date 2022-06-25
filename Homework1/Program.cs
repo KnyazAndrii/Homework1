@@ -93,6 +93,7 @@ namespace Homework1
             int SeccondDigit = N % 10;
             int SumDigits = FirstDigit + SeccondDigit;
 
+
             Console.WriteLine("The sum of the digits of N: " + SumDigits);
         }
 
