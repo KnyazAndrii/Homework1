@@ -88,9 +88,11 @@ namespace Homework1
         {
             Console.Write("Enter N value: ");
             int N = Convert.ToInt32(Console.ReadLine());
+
             int FirstDigit = N / 10;
             int SeccondDigit = N % 10;
             int SumDigits = FirstDigit + SeccondDigit;
+
             Console.WriteLine("The sum of the digits of N: " + SumDigits);
         }
 
